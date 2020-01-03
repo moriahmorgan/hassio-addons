@@ -36,5 +36,5 @@
       "servers": "str"
     }
   },
-  "image": "homeassistant/{arch}-addon-nginx_proxy"
+  "image": "seriphic/nginxproxy"
 }
