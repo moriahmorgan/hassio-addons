@@ -55,8 +55,8 @@ if bashio::config.true 'listen_ipv6'; then
 fi
 
 if bashio::config.false 'listen_ipv6'; then
-    sed -i 's/listen\ \[\:\:\]\:80/listen 80/g' test.conf
-    sed -i 's/listen\ \[\:\:\]\:443/listen 443/g' test.conf
+    sed -i 's/listen\ \[\:\:\]\:80/listen 80/g' /etc/nginx.conf
+    sed -i 's/listen\ \[\:\:\]\:443/listen 443/g' /etc/nginx.conf
     fi
 fi
 
