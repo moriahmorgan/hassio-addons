@@ -1,4 +1,4 @@
-FROM homeassistant/armv7-base:3.10
+FROM homeassistant/aarch64-base:3.10
 
 # Setup base
 RUN apk add --no-cache nginx openssl
