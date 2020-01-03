@@ -7,4 +7,4 @@ RUN apk add --no-cache nginx openssl
 COPY data/run.sh /
 COPY data/nginx.conf /etc/
 
-CMD [ "/run.sh" ]
+#CMD [ "/run.sh" ]
