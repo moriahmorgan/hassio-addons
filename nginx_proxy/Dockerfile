@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM homeassistant/armv7-base:3.10
 
 # Setup base
 RUN apk add --no-cache nginx openssl
